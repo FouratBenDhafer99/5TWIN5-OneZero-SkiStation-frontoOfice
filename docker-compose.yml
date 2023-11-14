@@ -5,7 +5,7 @@ services:
     container_name: frontend
     build: .
     ports:
-      - "5000:5000"
+      - "3000:5000"
     volumes:
       - /var/lib/jenkins/workspace/5TWIN5-SkiStation/frontend:/usr/src/app
     environment:
